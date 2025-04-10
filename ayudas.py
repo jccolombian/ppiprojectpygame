@@ -37,6 +37,7 @@ cobaltgreen = '#3D9140'
 darkorange2 = '#EE7600'
 tan1 = '#FFA54F'
 red = '#FF0000'
+orange2	= '#EE9A00'
 
 
 # TIPOS DE FUENTES:
@@ -50,6 +51,8 @@ letra3 = 'jokerman'
 letra4 = 'frenchscript'
 
 letra5 = 'stencil'
+
+letraSistema6 = 'arialnegrita'
 
 letra6 = './fonts/Anagram.ttf'
 

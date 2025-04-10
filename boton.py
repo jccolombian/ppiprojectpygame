@@ -96,7 +96,7 @@ def click(boton):
     for evento in Ayudas.EVENTOS:
         if evento.type == pygame.MOUSEBUTTONDOWN:
             if activo(boton):
-                boton.click = not boton.click
+                boton.click = True
     return boton.click            
 
 def botonImagen(boton):
