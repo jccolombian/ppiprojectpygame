@@ -17,6 +17,7 @@ class entradadetexto:
     pygame.time.set_timer(eventoCursor,500)
     coord = VECTOR(200,100)
     size = VECTOR(200,50)
+    password = False
 
 def activa(entrada):
     pos = pygame.mouse.get_pos()
@@ -54,6 +55,9 @@ def activar(entrada):
 
     letra = pygame.font.SysFont(entrada.font,entrada.fontSize)
     contenido = letra.render(entrada.texto,True,entrada.colorActivo)    
+
+    if entrada.password:
+        contenido = letra.render('*' * len(entrada.texto),True,entrada.colorActivo)
 
     for evento in Ayudas.EVENTOS:
         if evento.type == entrada.eventoCursor:

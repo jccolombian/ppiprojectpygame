@@ -106,6 +106,8 @@ class entradadetexto2:
 
 if __name__ == '__main__':
 
+    #mostrarLetraSistema()
+
     while True:
 
         Ayudas.EVENTOS = pygame.event.get()
